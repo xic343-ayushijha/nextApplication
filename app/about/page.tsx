@@ -13,7 +13,7 @@ export default function About() {
     },[]);
 
     const modifyName = () =>{
-        setName({...name,name:'dylan murphy'})
+        setName({...name,name:'dylan murphy 2'})
     }
 
     const modifyNameOnServer = () =>{
@@ -56,7 +56,7 @@ export default function About() {
                     
                 </ul>
             }
-            <button onClick={modifyNameOnServer}>change name</button>
+            <button onClick={modifyNameOnServer}>change name user</button>
         </div>
     );
 }
