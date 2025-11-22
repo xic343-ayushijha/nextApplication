@@ -38,21 +38,7 @@ export default function About() {
             {
                 name && 
                 <ul>
-                    <li>
-                        {name.name}
-                    </li>
-                    <li>
-                        {name.phoneNo}
-                    </li>
-                    <li>
-                        {name.address}
-                    </li>
-                    <li>
-                        {name.company}
-                    </li>
-                    <li>
-                        {name.country}
-                    </li>
+               <li>name</li>
                     
                 </ul>
             }
